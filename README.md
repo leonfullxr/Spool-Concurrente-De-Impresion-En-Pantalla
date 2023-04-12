@@ -9,11 +9,10 @@ mecanismo de comunicación/sincronización entre procesos se van a utilizar cauc
 (archivos FIFO) y en algún caso señales. En la siguiente figura se muestra el esquema general a
 seguir para la implementación:
 
-[EsquemaPracticaProxys.pdf](https://github.com/leonfullxr/Spool-Concurrente-De-Impresion-En-Pantalla/files/11213158/EsquemaPracticaProxys.pdf)
 ![Screenshot from 2023-04-12 17-30-12](https://user-images.githubusercontent.com/87938446/231507072-44fc8a29-246f-4afd-b005-8064a7cea149.png)
+![Screenshot from 2023-04-12 17-32-06](https://user-images.githubusercontent.com/87938446/231507622-8969feee-5c24-4571-8449-c7eaa3c55beb.png)
 
-Siguiendo los mensajes numerados obtendremos las interacciones entre procesos para poder
-llevar a cabo la impresión de un archivo, según se explica a continuación:
+Siguiendo los mensajes numerados obtendremos las interacciones entre procesos para poder llevar a cabo la impresión de un archivo, según se explica a continuación:
 1. Un cliente solicita la impresión de un archivo enviando un mensaje (cuyo contenido no
 tiene importancia) al servidor a través de un FIFO cuyo nombre es conocido.
 Guía Práctica de Sistemas Operativos-0
